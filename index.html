@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Registro del Programador</h1>
+    <form action="" method="post">
+        
+        <label for="nombre">Nombre y Apellido</label>
+        <input type="text" name="nombre" id="nombre" placeholder="nombre">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="mail">
+        <br><br>
+        <label for="telefono">Telefono</label>
+        <input type="telephone" name="telephone" id="telephone" placeholder="Su teléfono">
+        <br><br>
+        <fieldset style="width: 400px;">
+            <legend>Lenguajes que conoce</legend><br>
+            <label for="angular">Angular</label>
+            <input type="checkbox" id="angular" checked><br>
+            <label for="java">Java</label>
+            <input type="checkbox" id="java" ><br>
+            <label for="nodeJs">Node Js</label>
+            <input type="checkbox" id="nodeJs" ><br>
+            <label for="python">Python</label>
+            <input type="checkbox" id="python" ><br>
+            <label for="otro">Otro</label>
+            <input type="text" name="otro" id="otro" ><br>
+        </fieldset>
+        <p>Nivel de Ingles</p>
+        <fieldset style="width: 400px;">
+            <label for="bajo">Bajo</label>
+            <input type="radio" name="nivelIngles" checked><br>
+            <label for="bajo">Medio</label>
+            <input type="radio" name="nivelIngles"><br>
+            <label for="bajo">Alto</label>
+            <input type="radio" name="nivelIngles">
+        </fieldset><br>
+        <input type="submit" value="Enviar">
+    </form>   
+</body>
+</html>
